@@ -2,13 +2,13 @@
 set arg1=%1
 IF %1.==. GOTO No1
 
-mkdir "p:\File Preparation\%arg1%\Applications"
-mkdir "p:\File Preparation\%arg1%\App Docs"
+mkdir "C:\File Preparation\%arg1%\Applications"
+mkdir "C:\File Preparation\%arg1%\App Docs"
 GOTO End1
 
 :No1
-mkdir "p:\File Preparation\test\Applications"
-mkdir "p:\File Preparation\test\App Docs"
+mkdir "C:\File Preparation\test\Applications"
+mkdir "C:\File Preparation\test\App Docs"
 GOTO End1
 
 
